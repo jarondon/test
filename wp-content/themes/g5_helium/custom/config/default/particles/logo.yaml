@@ -1,0 +1,8 @@
+enabled: '1'
+url: ''
+target: _self
+image: 'gantry-media://header/LogoEPEC2017.jpg'
+link: '1'
+svg: ''
+text: ''
+class: 'g-logo g-logo-helium'

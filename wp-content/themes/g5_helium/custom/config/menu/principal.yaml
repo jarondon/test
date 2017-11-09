@@ -1,0 +1,19 @@
+ordering:
+  inicio: ''
+  antropologia-adecuada/4: ''
+  cultura-de-muerte:
+    uada/4: ''
+  antropologia-adecuada:
+    4: ''
+items:
+  inicio:
+    object_id: 24
+  antropologia-adecuada/4:
+    object_id: 2
+  cultura-de-muerte:
+    object_id: 27
+  antropologia-adecuada:
+    dropdown: fullwidth
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto

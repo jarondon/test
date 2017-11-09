@@ -1,0 +1,153 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1509595781
+layout:
+  /navigation/:
+    -
+      - 'menu-6409 89'
+      - 'social-3171 11'
+    -
+      - system-messages-7119
+  /header/: {  }
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'aside 25':
+          -
+            - position-position-4734
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25':
+          -
+            - position-position-3949
+  /footer/:
+    -
+      - 'logo-9571 10'
+      - 'copyright-1736 40'
+      - 'horizontalmenu-9034 35'
+      - 'totop-8670 15'
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  menu-6409:
+    attributes:
+      menu: inicio
+      base: /
+      startLevel: '1'
+      maxLevels: '2'
+      hoverExpand: '1'
+  social-3171:
+    attributes:
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/esposiblelaesperanza'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/esposiblelaesperanza'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/+esposiblelaesperanza'
+          name: Google+
+    block:
+      class: g-social-header
+  position-position-4734:
+    title: Aside
+    attributes:
+      key: aside
+  position-position-3949:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  logo-9571:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://above/LogoEPEC2017.jpg'
+  copyright-1736:
+    attributes:
+      date:
+        start: '2017'
+      owner: '(c) Esposiblelaeperanza v1.0'
+      additional:
+        text: 'Realizado exclusivametne por el Equipo de Diseño y Desarrollo  <br /> Esposiblelaesperanza.'
+  horizontalmenu-9034:
+    title: 'Horizontal Menu'
+    attributes:
+      items: {  }
+  totop-8670:
+    title: 'To Top'

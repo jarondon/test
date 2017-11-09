@@ -1,0 +1,5 @@
+preset: preset6
+header:
+  background: 'rgba(255, 255, 255, 0)'
+menu:
+  col-width: 180px
